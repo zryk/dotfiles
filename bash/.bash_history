@@ -523,3 +523,126 @@ sudo reboot
 exit
 exi
 exit
+ls -la
+cd .config/
+ls -la
+cd i3/
+ls -la
+cd ../../
+ls -la
+cd dotfiles/
+ls -la
+cd i3/
+ls -la
+cd .config/
+ls -la
+cd i3/
+ls -la
+nano config 
+cd ../../../
+ls -la
+git stauts
+git status
+git add --all
+git commit -am "Added config for i3 gaps"
+git push
+sudo reboot
+cd images/
+ls 
+ls -la
+cd ../
+ls -la
+cd Downloads/
+ls -la
+cp FbkuLan.jpg ibm_thnk.jpg
+ls -la
+rm FbkuLan.jpg 
+ls -la
+mv ibm_thnk.jpg ~/images/
+ls ~/images/
+ls -la
+cd ../
+ls -la
+sudo apt-get install feh
+cd dotfiles/
+ls -la
+cd i3/
+ls -la
+cd .config/
+ls -la
+cd i3/
+ls -la
+nano config 
+cd~
+cd ~/
+ls -la
+cd images/
+ls -la
+mkdir wallpaprts
+rmdir wallpaprts/
+mkdir wallpapers
+mv ibm_thnk.jpg wallpapers
+ls -la
+cd wallpapers/
+cp ibm_thnk.jpg ibm_thinkpad.jpg
+nano ~/dotfiles/i3/.config/i3/config 
+sudo reboot
+cd Downloads/
+ls -la
+mv eb3Yiqw.png ~/images/
+cd ../
+cd images/
+ls -la
+mv eb3Yiqw.png wallpapers/
+ls -la
+cd wallpapers/
+ls -la
+rm ibm_think.jpg
+cp eb3Yiqw.png think_global.png
+cd ../../
+nano dotfiles/i3/.config/i3/config
+sudo reboot
+pwd
+cd Downloads/
+ls -la
+sudo dpkg -i getdeb-repository_0.1-1~getdeb1_all.deb 
+sudo apt-get install polybar
+sudo -atget update && sudo apt-get install polybar
+sudo apt-get update && sudo apt-get install polybar
+sudo apt-get install polybar
+sudo dpkg -i getdeb-repository_0.1-1~getdeb1_all.deb 
+exit
+sudo reboot
+ls
+cd temp
+ls 
+ls -la
+apt install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev
+sudo apt install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python-xcbgen xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev
+git clone https://github.com/jaagr/polybar.git polybar
+ls
+cd polybar/
+ls -la
+cd ../
+cd polybar && build.sh
+cd polybar && ./build.sh
+cd ../
+cd polybar && ./build.sh
+sudo apt-get install libpulse
+sudo apt-get update
+cd /etc/apt/sources.list.d/
+ls -la
+rm getdeb.list.bck 
+sudo rm getdeb.list.bck 
+sudo reboot
+sudo apt-get update
+sudo apt-get remove getdeb-repository 
+sudo apt-get update
+sudo apt-get install
+zsh --version
+sudo apt-get install zsh
+zsh --version
+echo $SHELL
+chsh -s $(which zsh)
+echo $SHELL
+sudo reboot

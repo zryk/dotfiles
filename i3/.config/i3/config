@@ -158,3 +158,5 @@ bar {
 
 gaps inner 8
 gaps outer 8
+
+exec --no-startup-id feh --bg-scale ~/images/wallpapers/think_global.png
