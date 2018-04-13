@@ -399,3 +399,127 @@ cd i3/
 ls -la
 sudo reboot
 exit
+pwd
+ls
+pwd
+cd dotfiles/
+git init
+git add --all
+git commit -am
+git commit -am "Initial commit"
+git remot add origin https://github.com/zryk/dotfiles.git
+git remote add origin https://github.com/zryk/dotfiles.git
+git push
+git push --set-upstream origin master
+git pull
+git branch --set-upstream-to=origin/master master
+git pull
+git push
+git push --allow-unrelated-histories
+git pull --allow-unrelated-histories
+git push
+cd ../
+ls -la
+nano .Xauthority 
+nano .Xresources 
+mv .Xresources dotfiles/
+ls -la
+cd dotfiles/
+ls -la
+stow .Xresources 
+ls -la
+mv .Xresources ../
+ls -la
+cd ../
+cd dotfiles/
+ls -la
+mkdir .x
+ls -la
+cd ../
+mv .Xresources dotfiles/.x
+ls -la
+cd cd
+ls -la
+cd ../
+rm cd
+ls -la
+rmdir cd
+ls -la
+cd dotfiles/
+ls -la
+stow .x
+cd ../
+ls -la
+cd Desktop/
+ls -la
+cd ../
+rmdir Desktop/
+ls -la
+cd Documents/
+ls -la
+cd ../
+rmdir Documents/
+rmdir Music/
+rmdir Pictures/
+rmdir Public/
+rmdir Templates/
+rmdir Videos/
+ls -la
+nano .gitconfig 
+cd dotfiles/
+git status
+git add --all
+git commit -am "Added .x config"
+git push
+ls -la
+sudo reboot
+ls -la
+cd Downloads/
+cd ../
+mkdir temp
+git clone https://www.github.com/Airblader/i3 i3-gaps
+cd i3-gaps/
+autoreconf --force --install
+sudo apt-get install autoconf
+autoreconf --force --install
+rm -rf build/
+mkdir -p build && cd build/
+make
+sudo apt-get install --reinstall make
+make
+ls -la
+cd ../
+ls -la
+make
+cds build/
+ls -la
+pwd
+cd build/
+ls -la
+make && sudo make install
+cd ../
+autoreconf --force --install
+rm -rf build/
+mkdir -p build && cd build/
+../configure --prefix=/usr --sysconfdir/etc --disable-sanitizers
+../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+sudo apt-get install build-essential
+
+sudo apt-get install libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev
+../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+make
+sudo apt-get install libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev
+make
+sudo make install
+make
+cd ../
+rmdir build/
+rm -rf build/
+sudo apt install libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev xcb libxcb1-dev libxcb-icccm4-dev libyajl-dev libev-dev libxcb-xkb-dev libxcb-cursor-dev libxkbcommon-dev libxcb-xinerama0-dev libxkbcommon-x11-dev libstartup-notification0-dev libxcb-randr0-dev libxcb-xrm0 libxcb-xrm-dev
+autoreconf --force --install
+mkdir -p build; cd build; ../configure --prefix=/usr --sysconfdir=/etc --disable-sanitizers
+make; sudo make install
+sudo reboot
+exit
+exi
+exit
